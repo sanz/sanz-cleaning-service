@@ -1,0 +1,612 @@
+[
+  {
+    "client_index": 0,
+    "service_name": "Electrical Services",
+    "ser_pro_name": "Spark Electric Co.",
+    "user_ser_exp": "12 years",
+    "ser_dec": "Licensed electrician specializing in residential wiring, panel upgrades, and smart home installations. Fully insured and code-compliant work guaranteed.",
+    "ser_phone": "5551234001",
+    "ser_email": "service@sparkelectric.com",
+    "ser_web": "https://sparkelectric.com",
+    "ser_fb": "https://facebook.com/sparkelectric",
+    "ser_tw": "https://twitter.com/sparkelectric",
+    "ser_linkedin": "https://linkedin.com/company/sparkelectric",
+    "ser_photo": "https://picsum.photos/seed/electrical-services/1600/900",
+    "doc_no": "EL-2014-09821",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "California",
+    "ser_city": "Los Angeles",
+    "ser_address": "742 Voltage Ave, Suite 3",
+    "pin_no": "90012",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri",
+    "ser_time": "08:00 AM - 06:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Outlet & Switch Repair",
+        "item_des": "Replace or repair faulty outlets, switches, and cover plates",
+        "item_price": "85"
+      },
+      {
+        "item_name": "Ceiling Fan Install",
+        "item_des": "Mount and wire a new ceiling fan with light kit",
+        "item_price": "150"
+      },
+      {
+        "item_name": "Panel Inspection",
+        "item_des": "Full breaker panel inspection and safety report",
+        "item_price": "120"
+      }
+    ]
+  },
+  {
+    "client_index": 0,
+    "service_name": "Home Technology & Networking",
+    "ser_pro_name": "Spark Electric Co.",
+    "user_ser_exp": "8 years",
+    "ser_dec": "Home network wiring, Wi-Fi optimization, and smart device installation by certified technicians.",
+    "ser_phone": "5551234001",
+    "ser_email": "service@sparkelectric.com",
+    "ser_web": "https://sparkelectric.com",
+    "ser_fb": "https://facebook.com/sparkelectric",
+    "ser_tw": "https://twitter.com/sparkelectric",
+    "ser_linkedin": "https://linkedin.com/company/sparkelectric",
+    "ser_photo": "https://picsum.photos/seed/home-technology-networking/1600/900",
+    "doc_no": "EL-2014-09821",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "California",
+    "ser_city": "Los Angeles",
+    "ser_address": "742 Voltage Ave, Suite 3",
+    "pin_no": "90012",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri,Sat",
+    "ser_time": "09:00 AM - 05:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "TV Wall Mount",
+        "item_des": "Mount TV with cable concealment and bracket install",
+        "item_price": "120"
+      },
+      {
+        "item_name": "Wi-Fi Setup",
+        "item_des": "Configure router, mesh system, and optimize coverage",
+        "item_price": "95"
+      }
+    ]
+  },
+  {
+    "client_index": 1,
+    "service_name": "Plumbing Services",
+    "ser_pro_name": "AquaFix Plumbing",
+    "user_ser_exp": "15 years",
+    "ser_dec": "Expert plumbing for residential and light commercial. Specializing in leak repair, water heater installs, and drain solutions.",
+    "ser_phone": "5551234002",
+    "ser_email": "service@aquafixplumbing.com",
+    "ser_web": "https://aquafixplumbing.com",
+    "ser_fb": "https://facebook.com/aquafixplumbing",
+    "ser_tw": "https://twitter.com/aquafixplumbing",
+    "ser_linkedin": "https://linkedin.com/company/aquafixplumbing",
+    "ser_photo": "https://picsum.photos/seed/plumbing-services/1600/900",
+    "doc_no": "PL-2009-44217",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "California",
+    "ser_city": "San Francisco",
+    "ser_address": "88 Pipeline Blvd",
+    "pin_no": "94102",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri,Sat",
+    "ser_time": "07:00 AM - 07:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Leak Repair",
+        "item_des": "Locate and fix leaking pipes, joints, and valves",
+        "item_price": "110"
+      },
+      {
+        "item_name": "Drain Unclogging",
+        "item_des": "Snake and hydro-jet clogged drains and main lines",
+        "item_price": "95"
+      },
+      {
+        "item_name": "Water Heater Install",
+        "item_des": "Remove old unit and install new tank or tankless heater",
+        "item_price": "450"
+      }
+    ]
+  },
+  {
+    "client_index": 2,
+    "service_name": "HVAC & Climate Control",
+    "ser_pro_name": "CoolBreeze HVAC",
+    "user_ser_exp": "10 years",
+    "ser_dec": "Full-service heating, ventilation, and air conditioning. From routine maintenance to full system replacements.",
+    "ser_phone": "5551234003",
+    "ser_email": "service@coolbreezehvac.com",
+    "ser_web": "https://coolbreezehvac.com",
+    "ser_fb": "https://facebook.com/coolbreezehvac",
+    "ser_tw": "https://twitter.com/coolbreezehvac",
+    "ser_linkedin": "https://linkedin.com/company/coolbreezehvac",
+    "ser_photo": "https://picsum.photos/seed/hvac-climate-control/1600/900",
+    "doc_no": "HV-2016-33108",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Texas",
+    "ser_city": "Houston",
+    "ser_address": "2100 Thermal Dr",
+    "pin_no": "77001",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri",
+    "ser_time": "08:00 AM - 06:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "AC Tune-Up",
+        "item_des": "Seasonal AC inspection, filter change, and refrigerant check",
+        "item_price": "130"
+      },
+      {
+        "item_name": "Furnace Repair",
+        "item_des": "Diagnose and fix furnace ignition, blower, and thermostat issues",
+        "item_price": "200"
+      },
+      {
+        "item_name": "Duct Cleaning",
+        "item_des": "Full ductwork cleaning and sanitization",
+        "item_price": "350"
+      }
+    ]
+  },
+  {
+    "client_index": 3,
+    "service_name": "Painting & Wall Finishing",
+    "ser_pro_name": "FreshCoat Painters",
+    "user_ser_exp": "9 years",
+    "ser_dec": "Professional interior and exterior painting. Clean lines, premium paints, and meticulous prep work every time.",
+    "ser_phone": "5551234004",
+    "ser_email": "service@freshcoatpainters.com",
+    "ser_web": "https://freshcoatpainters.com",
+    "ser_fb": "https://facebook.com/freshcoatpainters",
+    "ser_tw": "https://twitter.com/freshcoatpainters",
+    "ser_linkedin": "https://linkedin.com/company/freshcoatpainters",
+    "ser_photo": "https://picsum.photos/seed/painting-wall-finishing/1600/900",
+    "doc_no": "PT-2017-22054",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "New York",
+    "ser_city": "Brooklyn",
+    "ser_address": "55 Brushstroke Lane",
+    "pin_no": "11201",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri,Sat",
+    "ser_time": "08:00 AM - 05:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Single Room Paint",
+        "item_des": "Walls and ceiling for one standard room up to 200 sq ft",
+        "item_price": "350"
+      },
+      {
+        "item_name": "Exterior Painting",
+        "item_des": "Full exterior prep, prime, and paint (per 500 sq ft)",
+        "item_price": "800"
+      },
+      {
+        "item_name": "Cabinet Refinishing",
+        "item_des": "Sand, prime, and repaint kitchen or bath cabinets",
+        "item_price": "600"
+      }
+    ]
+  },
+  {
+    "client_index": 3,
+    "service_name": "Flooring",
+    "ser_pro_name": "FreshCoat Painters",
+    "user_ser_exp": "6 years",
+    "ser_dec": "Epoxy garage floors, hardwood refinishing, and decorative concrete coatings.",
+    "ser_phone": "5551234004",
+    "ser_email": "service@freshcoatpainters.com",
+    "ser_web": "https://freshcoatpainters.com",
+    "ser_fb": "https://facebook.com/freshcoatpainters",
+    "ser_tw": "https://twitter.com/freshcoatpainters",
+    "ser_linkedin": "https://linkedin.com/company/freshcoatpainters",
+    "ser_photo": "https://picsum.photos/seed/flooring/1600/900",
+    "doc_no": "PT-2017-22054",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "New York",
+    "ser_city": "Brooklyn",
+    "ser_address": "55 Brushstroke Lane",
+    "pin_no": "11201",
+    "ser_days": "Mon,Wed,Fri",
+    "ser_time": "09:00 AM - 04:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Epoxy Floor Coating",
+        "item_des": "Garage floor epoxy application including prep and primer",
+        "item_price": "700"
+      },
+      {
+        "item_name": "Hardwood Refinish",
+        "item_des": "Sand, stain, and seal hardwood floors (per 200 sq ft)",
+        "item_price": "500"
+      }
+    ]
+  },
+  {
+    "client_index": 4,
+    "service_name": "Lawn Care & Landscaping",
+    "ser_pro_name": "GreenThumb Yard Services",
+    "user_ser_exp": "11 years",
+    "ser_dec": "Complete lawn and landscape maintenance. Mowing, planting, irrigation, and seasonal cleanup for residential properties.",
+    "ser_phone": "5551234005",
+    "ser_email": "service@greenthumbyard.com",
+    "ser_web": "https://greenthumbyard.com",
+    "ser_fb": "https://facebook.com/greenthumbyard",
+    "ser_tw": "https://twitter.com/greenthumbyard",
+    "ser_linkedin": "https://linkedin.com/company/greenthumbyard",
+    "ser_photo": "https://picsum.photos/seed/lawn-care-landscaping/1600/900",
+    "doc_no": "LS-2015-67840",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Florida",
+    "ser_city": "Orlando",
+    "ser_address": "310 Garden Gate Rd",
+    "pin_no": "32801",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri,Sat",
+    "ser_time": "07:00 AM - 04:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Weekly Lawn Mowing",
+        "item_des": "Mow, edge, and blow clippings for yards up to 5000 sq ft",
+        "item_price": "45"
+      },
+      {
+        "item_name": "Sprinkler Repair",
+        "item_des": "Fix broken heads, valves, and timer reprogramming",
+        "item_price": "90"
+      },
+      {
+        "item_name": "Garden Bed Install",
+        "item_des": "Design and plant a new garden bed up to 100 sq ft",
+        "item_price": "250"
+      }
+    ]
+  },
+  {
+    "client_index": 4,
+    "service_name": "Tree & Hedge Services",
+    "ser_pro_name": "GreenThumb Yard Services",
+    "user_ser_exp": "11 years",
+    "ser_dec": "Tree trimming, removal, and hedge shaping by certified arborists with full insurance coverage.",
+    "ser_phone": "5551234005",
+    "ser_email": "service@greenthumbyard.com",
+    "ser_web": "https://greenthumbyard.com",
+    "ser_fb": "https://facebook.com/greenthumbyard",
+    "ser_tw": "https://twitter.com/greenthumbyard",
+    "ser_linkedin": "https://linkedin.com/company/greenthumbyard",
+    "ser_photo": "https://picsum.photos/seed/tree-hedge-services/1600/900",
+    "doc_no": "LS-2015-67840",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Florida",
+    "ser_city": "Orlando",
+    "ser_address": "310 Garden Gate Rd",
+    "pin_no": "32801",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri",
+    "ser_time": "07:00 AM - 03:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Tree Trimming",
+        "item_des": "Prune and shape trees up to 30 ft tall",
+        "item_price": "200"
+      },
+      {
+        "item_name": "Hedge Shaping",
+        "item_des": "Trim and shape hedges and ornamental shrubs",
+        "item_price": "75"
+      }
+    ]
+  },
+  {
+    "client_index": 5,
+    "service_name": "House Cleaning",
+    "ser_pro_name": "CleanSweep Services",
+    "user_ser_exp": "7 years",
+    "ser_dec": "Reliable house cleaning for busy families. Standard, deep, and move-in/move-out packages available.",
+    "ser_phone": "5551234006",
+    "ser_email": "service@cleansweepservices.com",
+    "ser_web": "https://cleansweepservices.com",
+    "ser_fb": "https://facebook.com/cleansweepservices",
+    "ser_tw": "https://twitter.com/cleansweepservices",
+    "ser_linkedin": "https://linkedin.com/company/cleansweepservices",
+    "ser_photo": "https://picsum.photos/seed/house-cleaning/1600/900",
+    "doc_no": "CL-2019-18903",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Illinois",
+    "ser_city": "Chicago",
+    "ser_address": "1200 Clean St, Unit 4B",
+    "pin_no": "60601",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri,Sat",
+    "ser_time": "08:00 AM - 06:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Standard Cleaning",
+        "item_des": "Kitchen, bathrooms, vacuuming, and dusting for homes up to 2000 sq ft",
+        "item_price": "120"
+      },
+      {
+        "item_name": "Deep Cleaning",
+        "item_des": "Baseboards, inside appliances, windows, and detailed scrubbing",
+        "item_price": "220"
+      },
+      {
+        "item_name": "Move-Out Cleaning",
+        "item_des": "Full cleaning of empty property including cabinets and closets",
+        "item_price": "300"
+      }
+    ]
+  },
+  {
+    "client_index": 5,
+    "service_name": "Specialty Cleaning",
+    "ser_pro_name": "CleanSweep Services",
+    "user_ser_exp": "5 years",
+    "ser_dec": "Carpet cleaning, pressure washing, and window cleaning with professional-grade equipment.",
+    "ser_phone": "5551234006",
+    "ser_email": "service@cleansweepservices.com",
+    "ser_web": "https://cleansweepservices.com",
+    "ser_fb": "https://facebook.com/cleansweepservices",
+    "ser_tw": "https://twitter.com/cleansweepservices",
+    "ser_linkedin": "https://linkedin.com/company/cleansweepservices",
+    "ser_photo": "https://picsum.photos/seed/specialty-cleaning/1600/900",
+    "doc_no": "CL-2019-18903",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Illinois",
+    "ser_city": "Chicago",
+    "ser_address": "1200 Clean St, Unit 4B",
+    "pin_no": "60601",
+    "ser_days": "Tue,Thu,Sat",
+    "ser_time": "09:00 AM - 04:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Carpet Cleaning",
+        "item_des": "Steam clean carpets in up to 3 rooms",
+        "item_price": "180"
+      },
+      {
+        "item_name": "Pressure Washing",
+        "item_des": "Driveway, patio, or siding wash up to 500 sq ft",
+        "item_price": "150"
+      }
+    ]
+  },
+  {
+    "client_index": 6,
+    "service_name": "Carpentry & Woodwork",
+    "ser_pro_name": "SolidWood Works",
+    "user_ser_exp": "14 years",
+    "ser_dec": "Custom carpentry, trim work, and woodworking. From door installations to built-in shelving and deck repair.",
+    "ser_phone": "5551234007",
+    "ser_email": "service@solidwoodworks.com",
+    "ser_web": "https://solidwoodworks.com",
+    "ser_fb": "https://facebook.com/solidwoodworks",
+    "ser_tw": "https://twitter.com/solidwoodworks",
+    "ser_linkedin": "https://linkedin.com/company/solidwoodworks",
+    "ser_photo": "https://picsum.photos/seed/carpentry-woodwork/1600/900",
+    "doc_no": "CP-2012-55930",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Washington",
+    "ser_city": "Seattle",
+    "ser_address": "78 Timber Trail",
+    "pin_no": "98101",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri",
+    "ser_time": "08:00 AM - 05:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Door Installation",
+        "item_des": "Hang and trim one interior or exterior door",
+        "item_price": "175"
+      },
+      {
+        "item_name": "Custom Shelving",
+        "item_des": "Design and install floating or built-in shelves (per linear ft)",
+        "item_price": "65"
+      },
+      {
+        "item_name": "Deck Board Replacement",
+        "item_des": "Replace damaged deck boards and re-secure railings",
+        "item_price": "300"
+      }
+    ]
+  },
+  {
+    "client_index": 6,
+    "service_name": "Hardscaping & Outdoor Structures",
+    "ser_pro_name": "SolidWood Works",
+    "user_ser_exp": "10 years",
+    "ser_dec": "Fence building, pergolas, and outdoor structure construction with quality materials.",
+    "ser_phone": "5551234007",
+    "ser_email": "service@solidwoodworks.com",
+    "ser_web": "https://solidwoodworks.com",
+    "ser_fb": "https://facebook.com/solidwoodworks",
+    "ser_tw": "https://twitter.com/solidwoodworks",
+    "ser_linkedin": "https://linkedin.com/company/solidwoodworks",
+    "ser_photo": "https://picsum.photos/seed/hardscaping-outdoor-structures/1600/900",
+    "doc_no": "CP-2012-55930",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Washington",
+    "ser_city": "Seattle",
+    "ser_address": "78 Timber Trail",
+    "pin_no": "98101",
+    "ser_days": "Mon,Wed,Fri",
+    "ser_time": "08:00 AM - 04:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Wood Fence Install",
+        "item_des": "Install 6 ft privacy fence (per 50 linear ft)",
+        "item_price": "1200"
+      },
+      {
+        "item_name": "Pergola Build",
+        "item_des": "Custom cedar pergola up to 12x12 ft",
+        "item_price": "2500"
+      }
+    ]
+  },
+  {
+    "client_index": 7,
+    "service_name": "Roofing & Gutters",
+    "ser_pro_name": "TopShield Roofing",
+    "user_ser_exp": "16 years",
+    "ser_dec": "Residential roofing experts. Leak repair, shingle replacement, gutter maintenance, and full roof inspections.",
+    "ser_phone": "5551234008",
+    "ser_email": "service@topshieldroofing.com",
+    "ser_web": "https://topshieldroofing.com",
+    "ser_fb": "https://facebook.com/topshieldroofing",
+    "ser_tw": "https://twitter.com/topshieldroofing",
+    "ser_linkedin": "https://linkedin.com/company/topshieldroofing",
+    "ser_photo": "https://picsum.photos/seed/roofing-gutters/1600/900",
+    "doc_no": "RF-2010-78124",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Colorado",
+    "ser_city": "Denver",
+    "ser_address": "500 Summit Pkwy",
+    "pin_no": "80201",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri",
+    "ser_time": "07:00 AM - 05:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Roof Leak Patch",
+        "item_des": "Locate leak source and apply sealant or flashing repair",
+        "item_price": "250"
+      },
+      {
+        "item_name": "Gutter Cleaning",
+        "item_des": "Clean all gutters and downspouts, flush with water",
+        "item_price": "120"
+      },
+      {
+        "item_name": "Roof Inspection",
+        "item_des": "Full inspection with written condition report and photos",
+        "item_price": "175"
+      }
+    ]
+  },
+  {
+    "client_index": 8,
+    "service_name": "Home Security",
+    "ser_pro_name": "SafeHome Security Solutions",
+    "user_ser_exp": "8 years",
+    "ser_dec": "Home security camera, alarm, and smart lock installation. Professional setup with mobile app configuration.",
+    "ser_phone": "5551234009",
+    "ser_email": "service@safehomesecurity.com",
+    "ser_web": "https://safehomesecurity.com",
+    "ser_fb": "https://facebook.com/safehomesecurity",
+    "ser_tw": "https://twitter.com/safehomesecurity",
+    "ser_linkedin": "https://linkedin.com/company/safehomesecurity",
+    "ser_photo": "https://picsum.photos/seed/home-security/1600/900",
+    "doc_no": "SC-2018-42007",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Arizona",
+    "ser_city": "Phoenix",
+    "ser_address": "1450 Guardian Blvd",
+    "pin_no": "85001",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri,Sat",
+    "ser_time": "09:00 AM - 06:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Camera Install (per unit)",
+        "item_des": "Mount, wire, and configure one security camera",
+        "item_price": "150"
+      },
+      {
+        "item_name": "Smart Lock Setup",
+        "item_des": "Install smart deadbolt with app and keypad programming",
+        "item_price": "130"
+      },
+      {
+        "item_name": "Video Doorbell Install",
+        "item_des": "Install and configure video doorbell with Wi-Fi",
+        "item_price": "95"
+      }
+    ]
+  },
+  {
+    "client_index": 9,
+    "service_name": "General Handyman",
+    "ser_pro_name": "AllFix Handyman",
+    "user_ser_exp": "13 years",
+    "ser_dec": "No job too small. Furniture assembly, drywall patches, caulking, weatherstripping, and all those household fix-its.",
+    "ser_phone": "5551234010",
+    "ser_email": "service@allfixhandyman.com",
+    "ser_web": "https://allfixhandyman.com",
+    "ser_fb": "https://facebook.com/allfixhandyman",
+    "ser_tw": "https://twitter.com/allfixhandyman",
+    "ser_linkedin": "https://linkedin.com/company/allfixhandyman",
+    "ser_photo": "https://picsum.photos/seed/general-handyman/1600/900",
+    "doc_no": "HM-2013-90451",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Georgia",
+    "ser_city": "Atlanta",
+    "ser_address": "920 Wrench Way",
+    "pin_no": "30301",
+    "ser_days": "Mon,Tue,Wed,Thu,Fri,Sat",
+    "ser_time": "08:00 AM - 07:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Furniture Assembly",
+        "item_des": "Assemble flat-pack furniture (per item, up to 2 hours)",
+        "item_price": "80"
+      },
+      {
+        "item_name": "Drywall Patch",
+        "item_des": "Patch and smooth holes up to 6 inches",
+        "item_price": "65"
+      },
+      {
+        "item_name": "Odd Jobs (hourly)",
+        "item_des": "General repairs, mounting, caulking, and small fixes",
+        "item_price": "55"
+      }
+    ]
+  },
+  {
+    "client_index": 9,
+    "service_name": "Appliance Installation & Repair",
+    "ser_pro_name": "AllFix Handyman",
+    "user_ser_exp": "10 years",
+    "ser_dec": "Appliance hookup and basic repairs for dishwashers, washers, dryers, and garbage disposals.",
+    "ser_phone": "5551234010",
+    "ser_email": "service@allfixhandyman.com",
+    "ser_web": "https://allfixhandyman.com",
+    "ser_fb": "https://facebook.com/allfixhandyman",
+    "ser_tw": "https://twitter.com/allfixhandyman",
+    "ser_linkedin": "https://linkedin.com/company/allfixhandyman",
+    "ser_photo": "https://picsum.photos/seed/appliance-installation-repair/1600/900",
+    "doc_no": "HM-2013-90451",
+    "doc_image": "images/client/ser_doc_img/default.jpg",
+    "ser_state": "Georgia",
+    "ser_city": "Atlanta",
+    "ser_address": "920 Wrench Way",
+    "pin_no": "30301",
+    "ser_days": "Tue,Thu,Sat",
+    "ser_time": "09:00 AM - 05:00 PM",
+    "ser_status": "Active",
+    "items": [
+      {
+        "item_name": "Dishwasher Install",
+        "item_des": "Disconnect old unit and hook up new dishwasher",
+        "item_price": "140"
+      },
+      {
+        "item_name": "Garbage Disposal Replace",
+        "item_des": "Remove old disposal and install new unit",
+        "item_price": "120"
+      }
+    ]
+  }
+]

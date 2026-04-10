@@ -1,0 +1,122 @@
+[
+  {
+    "service_name": "Electrical Services",
+    "service_category": "Electrical",
+    "service_description": "Wiring, outlet and switch repair, circuit breaker upgrades, ceiling fan and light fixture installation, and EV charger setup.",
+    "service_image": "service-images/electrical_service.jpg"
+  },
+  {
+    "service_name": "Plumbing Services",
+    "service_category": "Plumbing",
+    "service_description": "Leak and pipe repair, drain unclogging, faucet replacement, water heater installation, and sewer line maintenance.",
+    "service_image": "service-images/plumbing_services.jpg"
+  },
+  {
+    "service_name": "HVAC & Climate Control",
+    "service_category": "HVAC",
+    "service_description": "Air conditioning and furnace installation, repair, and servicing. Duct cleaning, thermostat setup, and heat pump installation.",
+    "service_image": "service-images/havc_climate_control.jpg"
+  },
+  {
+    "service_name": "Painting & Wall Finishing",
+    "service_category": "Painting",
+    "service_description": "Interior and exterior house painting, cabinet refinishing, drywall patching, wallpaper installation, and popcorn ceiling removal.",
+    "service_image": "service-images/painting_wall_finishing.jpg"
+  },
+  {
+    "service_name": "Carpentry & Woodwork",
+    "service_category": "Carpentry",
+    "service_description": "Trim and molding, door and window installation, custom shelving, staircase repair, and general wood repairs.",
+    "service_image": "service-images/carpentry_woodwork.jpg"
+  },
+  {
+    "service_name": "Flooring",
+    "service_category": "Flooring",
+    "service_description": "Hardwood, laminate, vinyl, tile, and carpet installation. Floor sanding, refinishing, and grout repair.",
+    "service_image": "service-images/flooring.jpg"
+  },
+  {
+    "service_name": "Roofing & Gutters",
+    "service_category": "Roofing",
+    "service_description": "Roof leak repair, shingle replacement, gutter cleaning and guard installation, skylight repair, and roof inspections.",
+    "service_image": "service-images/roofing_gutters.jpg"
+  },
+  {
+    "service_name": "House Cleaning",
+    "service_category": "Cleaning",
+    "service_description": "Standard and deep cleaning for homes, move-in/move-out cleaning, and recurring housekeeping services.",
+    "service_image": "service-images/house_cleaning.jpeg"
+  },
+  {
+    "service_name": "Specialty Cleaning",
+    "service_category": "Cleaning",
+    "service_description": "Carpet and upholstery cleaning, window washing, pressure washing, pool maintenance, and chimney sweeping.",
+    "service_image": "service-images/house_cleaning.jpeg"
+  },
+  {
+    "service_name": "Lawn Care & Landscaping",
+    "service_category": "Landscaping",
+    "service_description": "Lawn mowing, edging, sod installation, garden bed design, mulching, and sprinkler system installation.",
+    "service_image": "service-images/lawn_care_landscaping.jfif"
+  },
+  {
+    "service_name": "Tree & Hedge Services",
+    "service_category": "Landscaping",
+    "service_description": "Tree trimming and removal, hedge and shrub shaping, and stump grinding.",
+    "service_image": "service-images/tree_hedge_services.jpg"
+  },
+  {
+    "service_name": "Hardscaping & Outdoor Structures",
+    "service_category": "Landscaping",
+    "service_description": "Patio and walkway paving, retaining wall construction, deck building, and fence installation.",
+    "service_image": "service-images/hardscaping_outdoor_structures.jpg"
+  },
+  {
+    "service_name": "Pest Control",
+    "service_category": "Pest Control",
+    "service_description": "Treatment for ants, roaches, spiders, termites, bed bugs, rodents, mosquitoes, and wildlife removal.",
+    "service_image": "service-images/pest_control.jpg"
+  },
+  {
+    "service_name": "Kitchen & Bath Remodeling",
+    "service_category": "Remodeling",
+    "service_description": "Full and partial kitchen and bathroom renovation including cabinetry, countertops, tile, fixtures, and plumbing.",
+    "service_image": "service-images/kitchen_bath_remodeling.jpg"
+  },
+  {
+    "service_name": "Home Renovation & Additions",
+    "service_category": "Remodeling",
+    "service_description": "Basement finishing, garage conversion, room additions, and general structural remodeling.",
+    "service_image": "service-images/home_renovation_additions.jpg"
+  },
+  {
+    "service_name": "Appliance Installation & Repair",
+    "service_category": "Appliance Services",
+    "service_description": "Installing and repairing dishwashers, refrigerators, washers, dryers, ovens, and garbage disposals.",
+    "service_image": "service-images/appliance_installation_repair.jpg"
+  },
+  {
+    "service_name": "Home Security",
+    "service_category": "Security",
+    "service_description": "Lock and deadbolt installation, security camera and alarm system setup, smart doorbells, and motion sensor lighting.",
+    "service_image": "service-images/home_security.jpg"
+  },
+  {
+    "service_name": "Home Technology & Networking",
+    "service_category": "Home Technology",
+    "service_description": "TV mounting, home theater setup, Wi-Fi and mesh network configuration, and smart home device installation.",
+    "service_image": "service-images/home_technology_networking.jpg"
+  },
+  {
+    "service_name": "Garage Door & Driveway",
+    "service_category": "Garage & Exterior",
+    "service_description": "Garage door and opener repair, driveway sealing and crack repair, and concrete leveling.",
+    "service_image": "service-images/garage _door_driveway.jpg"
+  },
+  {
+    "service_name": "General Handyman",
+    "service_category": "General",
+    "service_description": "Minor home repairs, furniture assembly, picture hanging, caulking, weatherstripping, and odd jobs.",
+    "service_image": "service-images/general_handyman.jpg"
+  }
+]

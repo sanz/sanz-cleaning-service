@@ -1,0 +1,92 @@
+[
+  {
+    "client_code": "CLT-SPARK01",
+    "client_name": "Mike Henderson",
+    "client_email": "mike@sparkelectric.com",
+    "client_mobile": "5551234001",
+    "client_gender": "Male",
+    "password": "password",
+    "client_photo_url": "https://i.pravatar.cc/600?img=1"
+  },
+  {
+    "client_code": "CLT-AQUA02",
+    "client_name": "Rachel Torres",
+    "client_email": "rachel@aquafixplumbing.com",
+    "client_mobile": "5551234002",
+    "client_gender": "Female",
+    "password": "password",
+    "client_photo_url": "https://i.pravatar.cc/600?img=2"
+  },
+  {
+    "client_code": "CLT-COOL03",
+    "client_name": "James Park",
+    "client_email": "james@coolbreezehvac.com",
+    "client_mobile": "5551234003",
+    "client_gender": "Male",
+    "password": "password",
+    "client_photo_url": "https://i.pravatar.cc/600?img=3"
+  },
+  {
+    "client_code": "CLT-COAT04",
+    "client_name": "Linda Nguyen",
+    "client_email": "linda@freshcoatpainters.com",
+    "client_mobile": "5551234004",
+    "client_gender": "Female",
+    "password": "password",
+    "client_photo_url": "https://i.pravatar.cc/600?img=4"
+  },
+  {
+    "client_code": "CLT-GREEN05",
+    "client_name": "Carlos Ramirez",
+    "client_email": "carlos@greenthumbyard.com",
+    "client_mobile": "5551234005",
+    "client_gender": "Male",
+    "password": "password",
+    "client_photo_url": "https://i.pravatar.cc/600?img=5"
+  },
+  {
+    "client_code": "CLT-CLEAN06",
+    "client_name": "Sarah Mitchell",
+    "client_email": "sarah@cleansweepservices.com",
+    "client_mobile": "5551234006",
+    "client_gender": "Female",
+    "password": "password",
+    "client_photo_url": "https://i.pravatar.cc/600?img=6"
+  },
+  {
+    "client_code": "CLT-WOOD07",
+    "client_name": "David Kim",
+    "client_email": "david@solidwoodworks.com",
+    "client_mobile": "5551234007",
+    "client_gender": "Male",
+    "password": "password",
+    "client_photo_url": "https://i.pravatar.cc/600?img=7"
+  },
+  {
+    "client_code": "CLT-ROOF08",
+    "client_name": "Angela Brooks",
+    "client_email": "angela@topshieldroofing.com",
+    "client_mobile": "5551234008",
+    "client_gender": "Female",
+    "password": "password",
+    "client_photo_url": "https://i.pravatar.cc/600?img=8"
+  },
+  {
+    "client_code": "CLT-SAFE09",
+    "client_name": "Robert Chen",
+    "client_email": "robert@safehomesecurity.com",
+    "client_mobile": "5551234009",
+    "client_gender": "Male",
+    "password": "password",
+    "client_photo_url": "https://i.pravatar.cc/600?img=9"
+  },
+  {
+    "client_code": "CLT-FIX10",
+    "client_name": "Emma Sullivan",
+    "client_email": "emma@allfixhandyman.com",
+    "client_mobile": "5551234010",
+    "client_gender": "Female",
+    "password": "password",
+    "client_photo_url": "https://i.pravatar.cc/600?img=10"
+  }
+]
