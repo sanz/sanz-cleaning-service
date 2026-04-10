@@ -2,12 +2,18 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+.DS_Store
+.phpunit.result.cache
 
 # Laravel 5 & Lumen specific
 public/storage
 .env
 /storage/*.key
 .rnd
+/storage/debugbar/*
+/storage/framework/*
+/storage/logs/*
+/database/*.sqlite
 
 #Images
 public/images/client
