@@ -1,0 +1,4 @@
+{"menu": [
+    {"url":"dashboard", "name":"Dashboard", "slug":"dashboard", "icon":"feather icon-home", "i18n":"Dashboard"},
+    {"url":"service-catalog","name":"Service Catalog","icon":"feather icon-grid"}
+]}

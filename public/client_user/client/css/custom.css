@@ -1,0 +1,374 @@
+/** Page : client-service-listing */
+.required {
+  color: #e3464c !important;
+  margin-right: 2.5px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.text-header {
+  color: #ff3a65;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.field-icon {
+  cursor: pointer;
+  float: right;
+  margin-left: -30px;
+  margin-right: 7px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Service Description */
+.service_description p {
+  margin-bottom: 5px !important;
+}
+.service_description {
+  margin-bottom: 25px !important;
+}
+.user-info i {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+/* Service Social Icon */
+
+.social {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* width: 80%; */
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 11px;
+  box-shadow: 1px 2px 7px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+  margin-bottom: 1em;
+}
+.social-icon:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.facebook:hover {
+  background: #3b5998;
+}
+
+.twitter:hover {
+  background: #1da1f2;
+}
+
+.instagram:hover {
+  background: linear-gradient(
+    135deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+}
+
+.globe:hover {
+  background: black;
+}
+
+.linkedin:hover {
+  background: #0e76a8;
+}
+
+/* Profile Image */
+
+/* Service Image */
+.service_img {
+  height: 150px !important;
+  width: 200px !important;
+}
+
+label.error {
+  color: #e3464c !important;
+}
+
+/* Custom Pading or Margin */
+.pl-0 {
+  padding-left: 0 !important;
+}
+.mt-40 {
+  margin-top: 40px !important;
+}
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-15 {
+  margin-top: 15px !important;
+}
+.mt-10 {
+  margin-top: 10px !important;
+}
+.mt-5 {
+  margin-top: 5px !important;
+}
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+
+/*Password strength */
+#pass-info {
+  width: 100%;
+  margin-bottom: 15px;
+  color: #555;
+  text-align: center;
+  font-size: 12px;
+  font-size: 0.75rem;
+  padding: 5px 3px 3px 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+#pass-info.weakpass {
+  border: 1px solid #ff9191;
+  background: #ffc7c7;
+  color: #94546e;
+}
+#pass-info.stillweakpass {
+  border: 1px solid #fbb;
+  background: #fdd;
+  color: #945870;
+}
+#pass-info.goodpass {
+  border: 1px solid #c4eec8;
+  background: #e4ffe4;
+  color: #51926e;
+}
+#pass-info.strongpass {
+  border: 1px solid #6ed66e;
+  background: #79f079;
+  color: #348f34;
+}
+#pass-info.vrystrongpass {
+  border: 1px solid #379137;
+  background: #48b448;
+  color: #cdffcd;
+}
+
+/* Show hide password */
+.my-toggle {
+  background: transparent;
+  border: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  color: #888;
+  cursor: pointer;
+  font-size: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 5px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  z-index: 10;
+  position: relative;
+}
+.my-toggle:hover,
+.my-toggle:focus {
+  background-color: #eee;
+  color: #555;
+  outline: transparent;
+}
+
+.hideShowPassword-wrapper {
+  width: 100% !important;
+}
+
+/* Forms loader */
+.loader {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #999;
+  font-size: 18px;
+  font-size: 1.125rem;
+  -webkit-animation: rotation 2s infinite linear;
+  animation: rotation 2s infinite linear;
+}
+.loader.newsletter {
+  right: -22px;
+}
+.loader.register {
+  color: #444;
+}
+
+.btn_1 {
+  outline: none !important;
+}
+.btn_1:hover,
+.btn_1:focus {
+  background-color: #0f1642;
+}
+
+.approved {
+  position: inherit;
+}
+
+.box {
+  height: 437px !important;
+  vertical-align: center;
+  background-color: #7d8fa1;
+  margin-bottom: 10px;
+}
+
+.font-large-30 {
+  font-size: 30px !important;
+}
+
+@media (max-width: 576px) {
+  .box {
+    height: 260px !important;
+  }
+  .font-large-30 {
+    font-size: 22px !important;
+  }
+}
+
+.font-large-15 {
+  font-size: 15px !important;
+}
+
+.font-large-17 {
+  font-size: 17px !important;
+}
+.font-large-20 {
+  font-size: 20px !important;
+}
+
+.add-btn {
+  position: fixed;
+  left: 240px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.styled-select {
+  appearance: none;
+  color: #7d8fa1;
+}
+
+.custom-modal span {
+  font-size: medium;
+}
+
+.custom-modal .row {
+  padding-bottom: 10px;
+}
+
+.custom-modal label {
+  margin-right: 5px;
+}
+
+.text-pink {
+  color: #ff3a65 !important;
+}
+
+.position-top-0 {
+  top: 0px !important;
+}
+
+.display-hidden {
+  display: none !important;
+}
+
+/* Client Review Page Css */
+
+.review-ul > li {
+  margin: 0 -30px 0 -30px !important;
+  position: relative;
+  padding: 15px 30px !important;
+  border-top: 1px solid #ededed;
+}
+
+@media (max-width: 576px) {
+  .mr-8 {
+    margin-right: 5rem;
+  }
+
+  .w-sm-100 {
+    width: 100% !important;
+  }
+}
+
+.progress {
+  height: 5px;
+}
+
+.progress-bar {
+  background-color: #33cc00;
+}
+
+.reviews .reviews_sum_details strong {
+  position: relative;
+  top: -8px;
+}
+
+#review_summary {
+  text-align: center;
+  background-color: #1f2f6a;
+  color: #fff;
+  padding: 20px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.custom-file-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+}
+
+.card.dashboard {
+  min-height: 140px;
+  margin: 0 5px;
+}
+
+#clientdashboard {
+  height: 549px !important;
+}
+
+@media (max-width: 576px) {
+  #clientdashboard {
+    height: 363px !important;
+  }
+}
