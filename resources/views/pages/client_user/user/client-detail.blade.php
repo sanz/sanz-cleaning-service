@@ -60,14 +60,14 @@
                                     @endphp
                                     <div class="score"><span>
                                             @if ($revSum>=4)
-                                            superb
+                                            Superb
                                             @elseif ($revSum>=3)
                                             Very Good
                                             @elseif ($revSum>=2)
                                             Good
                                             @elseif ($revSum>=1)
                                             Pleasant
-                                            @elseif ($revSum<1) Noob @endif <em>{{count($reviews)}}
+                                            @elseif ($revSum<1) Decent @endif <em>{{count($reviews)}}
                                                 Reviews</em></span><strong>{{$revSum}}</strong></div>
                                 </div>
                             </div>
@@ -155,14 +155,14 @@
                                                     <strong>{{$revSum}}</strong>
                                                     <em>
                                                         @if ($revSum>=4)
-                                                        superb
+                                                        Superb
                                                         @elseif ($revSum>=3)
                                                         Very Good
                                                         @elseif ($revSum>=2)
                                                         Good
                                                         @elseif ($revSum>=1)
                                                         Pleasant
-                                                        @elseif ($revSum<1) Noob @endif </em> <small>Based on
+                                                        @elseif ($revSum<1) Decent @endif </em> <small>Based on
                                                             {{count($reviews)}} reviews</small>
                                                 </div>
                                             </div>
@@ -315,9 +315,10 @@
                             @csrf
                             <input type="text" id="datepicker_field" name="date">
                             <div id="DatePicker"></div>
-                            <div class="dropdown time mb-2">
-                                <a href="#" data-toggle="dropdown">Hour <input type="text" readonly class="border-0"
+                            <div class="dropdown time mb-4">
+                                <a href="#" data-toggle="dropdown">Select Preferred Time: <input type="text" readonly class="border-0"
                                         id="selected_time" name="selected_time"></a>
+
                                 <div class="dropdown-menu ">
                                     <div class="dropdown-menu-content">
                                         <div class="radio_select">
@@ -352,6 +353,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <!-- /dropdown -->
                             <div class="mb-3">
                                 <div>

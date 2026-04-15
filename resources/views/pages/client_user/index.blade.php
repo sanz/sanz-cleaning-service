@@ -105,14 +105,14 @@
                                 round((round($service->response_rating,1)+round($service->service_rating,1)+round($service->communication_rating,1)+round($service->price_rating,1))/4,1);
                                 @endphp
                                 <div class="score"><span>@if ($avg>=4)
-                                        superb
+                                        Superb
                                         @elseif ($avg>=3)
                                         Very Good
                                         @elseif ($avg>=2)
                                         Good
                                         @elseif ($avg>=1)
                                         Pleasant
-                                        @elseif ($avg<1) Noob @endif <em>{{$service->revCount}}
+                                        @elseif ($avg<1) Decent @endif <em>{{$service->revCount}}
                                             Reviews</em></span><strong>{{$avg}}</strong>
                                 </div>
                             </li>

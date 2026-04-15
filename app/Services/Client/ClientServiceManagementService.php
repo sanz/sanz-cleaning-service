@@ -39,7 +39,7 @@ class ClientServiceManagementService
         return $this->getServiceData('all', $clientId);
     }
 
-    public function getServiceById(int $serviceId): ?array
+public function getServiceById(int $serviceId): ?array
     {
         $rows = $this->getServiceData('service', $serviceId);
 
@@ -162,11 +162,19 @@ class ClientServiceManagementService
         $savedIds = [];
 
         foreach ($items as $item) {
+            $name = trim((string) ($item['pli_name'] ?? ''));
+            $description = trim((string) ($item['pli_desc'] ?? ''));
+            $price = trim((string) ($item['pli_price'] ?? ''));
+
+            if ($name === '' && $description === '' && $price === '') {
+                continue;
+            }
+
             $payload = [
                 'client_id' => $clientId,
-                'name' => $item['pli_name'],
-                'description' => $item['pli_desc'],
-                'item_price' => (int) $item['pli_price'],
+                'name' => $name,
+                'description' => $description,
+                'item_price' => (int) $price,
             ];
 
             if (isset($item['item_id'])) {

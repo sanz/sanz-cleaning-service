@@ -170,7 +170,7 @@
 			<table border="0" cellpadding="0" cellspacing="0" class="responsive-table" style="max-width: 500px;" width="100%">
 
 					<tr>
-						<td align="center" class="logo" valign="top"><a href="{{route('home')}}" name="digyata" target="_blank" ><img alt="digyata" border="0"  height="45"   src='{{asset('client_user/img/digyatafencylogo.png')}}' style="display: block; font-family: 'proxima_nova_bold', Proxima Nova, Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;" title="digyata" width="150"  /> </a></td>
+						<td align="center" class="logo" valign="top"><a href="{{route('home')}}" name="sanz" target="_blank" ><img alt="sanz" border="0"  height="45"   src='{{asset('client_user/img/sanzfencylogo.png')}}' style="display: block; font-family: 'proxima_nova_bold', Proxima Nova, Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;" title="sanz" width="150"  /> </a></td>
 					</tr>
 
 			</table>
@@ -192,7 +192,7 @@
 											</tr>
 											<!-- /Copy Title --><!-- Copy Body -->
 											<tr>
-												<td align="center" class="padding" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; color: #999999;">You are one step ahead to provide your service on digyata. we believe you are our valuable client and we provide all our support to you to list your First service on Sanz. Happy to see you onboarding <br> Here are some steps to list your Service</td>
+												<td align="center" class="padding" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; color: #999999;">You are one step ahead to provide your service on sanz. we believe you are our valuable client and we provide all our support to you to list your First service on Sanz. Happy to see you onboarding <br> Here are some steps to list your Service</td>
 											</tr>
 											<!-- /Copy Body -->
 
@@ -269,7 +269,7 @@
 									<td class="padding-right" style="margin:0;font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif;padding:0;vertical-align:top">
 									<div class="h2" style="margin:0; padding:0; color: #333333; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; font-weight: normal; text-rendering:optimizelegibility; font-size:24px; line-height:28px; padding-bottom:10px">Step 2: Fill Service Listing Form</div>
 
-									<div class="p " style="padding: 0 0 0 0; font-size: 16px; line-height: 25px; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; color: #999999;">After Successfull login you can add your services on digyata by Adding your service related info on service listing Page.</div>
+									<div class="p " style="padding: 0 0 0 0; font-size: 16px; line-height: 25px; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; color: #999999;">After Successfull login you can add your services on sanz by Adding your service related info on service listing Page.</div>
 									<!--- /CONTENT ---><!--- CTA BUTTON ---><a class="mobile-button" href="{{route('clients.services.index')}}" name="Create_itinerary" style="font-size: 14px; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; border-radius: 3px; padding: 8px 20px; margin:15px 0 0 0; border: 1px solid #f7971c; background-color:#f7971c; display: inline-block; text-align:center;" target="_blank" >Add Service</a> <!--- /CTA BUTTON ---></td>
 								</tr>
 
@@ -293,7 +293,7 @@
 									<td class="padding-right" style="margin:0;font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif;padding:0;vertical-align:top">
 									<div class="h2" style="margin:0; padding:0; color: #333333; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; font-weight: normal; text-rendering:optimizelegibility; font-size:24px; line-height:28px; padding-bottom:10px">Step 3: View Your Order</div>
 
-									<div class="p " style="padding: 0 0 0 0; font-size: 16px; line-height: 25px; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; color: #999999;">your service listed on digyata and you can view and manage your orders from your order panel dashboard</div>
+									<div class="p " style="padding: 0 0 0 0; font-size: 16px; line-height: 25px; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; color: #999999;">your service listed on sanz and you can view and manage your orders from your order panel dashboard</div>
 									<!--- /CONTENT ---><!--- CTA BUTTON ---><a class="mobile-button" href="{{route('clients.orders.index')}}" name="Complete_profile" style="font-size: 14px; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; border-radius: 3px; padding: 8px 20px; margin:15px 0 0 0; border: 1px solid #f7971c; background-color:#f7971c; display: inline-block; text-align:center;" target="_blank" >View Orders</a> <!--- /CTA BUTTON ---></td>
 								</tr>
 

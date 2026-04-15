@@ -1,6 +1,6 @@
 /*
 filename: client-review.js
-author: digyata
+author: sanz
 */
 //------------------------------------------------------------------------------------------------
 $(document).ready(function () {

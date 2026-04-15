@@ -61,8 +61,31 @@ class OrderRepository
         return Order::query()
             ->where('orders.order_id', $orderId)
             ->join('services', 'services.service_id', '=', 'orders.service_id')
+            ->join('service_catalogs', 'service_catalogs.id', '=', 'services.service_catalog_id')
             ->join('customers', 'customers.id', '=', 'orders.user_id')
             ->join('clients', 'clients.id', '=', 'orders.client_id')
+            ->select(
+                'orders.order_code',
+                'orders.service_status',
+                'orders.booking_date',
+                'orders.time_slot',
+                'orders.address',
+                'orders.pay_status',
+                'orders.item_ids',
+                'orders.amount',
+                'services.name as provider_name',
+                'services.city',
+                'services.state',
+                'service_catalogs.service_name',
+                'service_catalogs.service_category',
+                'customers.user_code',
+                'customers.user_name',
+                'customers.user_email',
+                'customers.user_mobile',
+                'clients.client_code',
+                'clients.client_name',
+                'clients.client_email'
+            )
             ->get();
     }
 

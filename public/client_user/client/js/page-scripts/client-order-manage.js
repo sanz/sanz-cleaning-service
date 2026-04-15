@@ -1,6 +1,6 @@
 /**
  *  File Name	 : client-order-manage.js
- *  Author		 : digyata
+ *  Author		 : sanz
 */
 
 $(document).ready(function () {
@@ -63,7 +63,7 @@ $(document).ready(function () {
 			var total = 0;
 			$.each( result['items'], function( key, value ) {
 				total = total + parseInt(value['item_price'])
-				var html = '<div class="row "><div class="col-md-10"><label>' + (key + 1) + '.  </label><label>' + value['item_name'] + '</label></div><div class="col-md-2 text-right font-weight-bold">$CA ' + parseInt(value['item_price']) + '/-</div></div>';
+				var html = '<div class="row "><div class="col-md-10"><label>' + (key + 1) + '.  </label><label>' + value['name'] + '</label></div><div class="col-md-2 text-right font-weight-bold">$CA ' + parseInt(value['item_price']) + '/-</div></div>';
 				modal.find(".item_list").append(html);
 			});
 			modal.find(".grand_total").html("$CA "+ total +"/-");

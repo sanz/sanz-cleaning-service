@@ -36,7 +36,7 @@
 						<div class="box_contacts">
 							<i class="icon_lifesaver"></i>
 							<h2>Help Center</h2>
-							<a href="mailto:digyata125@gmail.com">digyata125@gmail.com</a>
+							<a href="mailto:hello@sanzcleaning.com">hello@sanzcleaning.com</a>
 							<small>MON to SAT 9am-6pm</small>
 						</div>
 					</div>
@@ -44,8 +44,8 @@
 						<div class="box_contacts">
 							<i class="icon_pin_alt"></i>
 							<h2>Address</h2>
-							<div>Mahesana</div>
-							<small>MON to SAT 9am-6pm</small>
+							<div>Sudbury, Ontario CA</div>
+							<small>301 Pixie St, P3C 7Y1</small>
 						</div>
 					</div>
 				</div>

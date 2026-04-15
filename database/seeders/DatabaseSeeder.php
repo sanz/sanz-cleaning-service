@@ -6,6 +6,7 @@ use App\Models\User;
 use App\Models\ServicePrice;
 use App\Models\ServiceCatalog;
 use App\Models\Service;
+use App\Models\ServiceReview;
 use App\Models\Client;
 use App\Models\Customer;
 use Illuminate\Database\Seeder;
@@ -45,6 +46,8 @@ class DatabaseSeeder extends Seeder
             'user_state' => 'Ontario',
             'user_city' => 'Sudbury',
         ])->create();
+
+        $this->seedServiceReviews();
         
     }
 
@@ -157,5 +160,28 @@ class DatabaseSeeder extends Seeder
         }
 
         return $ids;
+    }
+
+    private function seedServiceReviews(): void
+    {
+        $customerIds = Customer::query()->pluck('id')->all();
+
+        if (empty($customerIds)) {
+            return;
+        }
+
+        $serviceIds = Service::query()->pluck('service_id')->all();
+
+        foreach ($serviceIds as $serviceId) {
+            ServiceReview::factory()
+                ->count(5)
+                ->state(function () use ($serviceId, $customerIds): array {
+                    return [
+                        'service_id' => $serviceId,
+                        'user_id' => $customerIds[array_rand($customerIds)],
+                    ];
+                })
+                ->create();
+        }
     }
 }

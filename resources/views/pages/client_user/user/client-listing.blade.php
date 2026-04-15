@@ -21,7 +21,7 @@
           <select name="SL_service" id="SL_service" class="form-control">
             <option value="{{route('customers.clients.index')}}" @if ($selectId == "")
               selected
-            @endif>all</option>
+            @endif>All Service Catalogs</option>
             @foreach ($catalogs as $catalog)
             <option value="{{route('customers.clients.filter',['id'=>$catalog->id])}}" @if ($selectId == $catalog->id)
               selected
@@ -112,7 +112,7 @@
                 @endphp
                 <div class="score"><span>
                   @if ($revSum>=4)
-                  superb
+                  Superb
                   @elseif ($revSum>=3)
                   Very Good
                   @elseif ($revSum>=2)
@@ -120,7 +120,7 @@
                   @elseif ($revSum>=1)
                   Pleasant
                   @elseif ($revSum<1)
-                  Noob
+                  Decent
                   @endif
                   <em>{{$service->revCount}} Reviews</em></span><strong>{{$revSum}}</strong></div>
               </li>

@@ -17,7 +17,7 @@
                               <i class="fa fa-fw fa-star"></i>
                         </div>
                         <div class="mr-5">
-                              <h5>@if ($countReview > 0){{$countReview}}@else No @endif New Reviews!</h5>
+                              <h5>@if ($countReview > 0){{$countReview}}@else No @endif Reviews!</h5>
                         </div>
                   </div>
                   <a class="card-footer text-white clearfix small z-1" href="{{ route('clients.reviews.index')}}">
@@ -35,7 +35,7 @@
                               <i class="fa fa-fw fa-calendar-check-o"></i>
                         </div>
                         <div class="mr-5">
-                              <h5>@if ($countOrder > 0){{$countOrder}}@else No @endif New Bookings!</h5>
+                              <h5>@if ($countOrder > 0){{$countOrder}}@else No @endif Bookings!</h5>
                         </div>
                   </div>
                   <a class="card-footer text-white clearfix small z-1" href="{{ route('clients.orders.index')}}">

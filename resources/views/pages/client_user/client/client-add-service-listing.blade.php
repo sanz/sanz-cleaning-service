@@ -323,19 +323,19 @@
 					<label class="required">*</label><span>Item</span> 
 					<table id="pricing-list-container" class="w-100 mt-10">
 						@isset($serviceData)
-							@foreach ($serviceData['item'] as $item )
+							@foreach (($serviceData['item'] ?? []) as $item )
 								<tr class="pricing-list-item">
 									<td>
-										<input type="text" name="item_id" value="{{$item['iID']}}" hidden>
+										<input type="text" name="item_id" value="{{ $item['iID'] ?? $item['item_id'] ?? '' }}" hidden>
 										<div class="row ">
 											<div class="col-md-3">
 												<div class="form-group">
-													<input type="text" class="form-control" value="{{ $item['iName']}}" placeholder="Title" name="pli_name">
+													<input type="text" class="form-control" value="{{ $item['iName'] ?? $item['name'] ?? '' }}" placeholder="Title" name="pli_name">
 												</div>
 											</div>
 											<div class="col-md-5">
 												<div class="form-group">
-													<input type="text" class="form-control" value="{{ $item['iDes']}}"  placeholder="Description" name="pli_desc">
+													<input type="text" class="form-control" value="{{ $item['iDes'] ?? $item['description'] ?? '' }}"  placeholder="Description" name="pli_desc">
 												</div>
 											</div>
 											<div class="col-md-3">
@@ -343,7 +343,7 @@
 													<div class="input-group-prepend">
 														<span class="input-group-text" id="price_icon"><small>$CA</small></span>
 													</div>
-													<input type="text" id="item_price" name="pli_price" class="form-control" value="{{ $item['iPrice']}}"  placeholder="Price" aria-describedby="price_icon">
+													<input type="text" id="item_price" name="pli_price" class="form-control" value="{{ $item['iPrice'] ?? $item['item_price'] ?? '' }}"  placeholder="Price" aria-describedby="price_icon">
 												</div>
 											</div>
 											<div class="col-md-1 ">

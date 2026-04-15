@@ -6,21 +6,8 @@
         <h3 data-target="#collapse_1">Quick Links</h3>
         <div class="collapse dont-collapse-sm links" id="collapse_1">
           <ul>
-            <li><a href="{{route('auth.clients.register')}}">Join Us</a></li>
-            <li><a href="{{route('auth.login')}}">Login</a></li>
             <li><a href="{{route('pages.about')}}">About Us</a></li>
             <li><a href="{{route('pages.contact')}}">Contacts</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <h3 data-target="#collapse_2">Categories</h3>
-        <div class="collapse dont-collapse-sm links" id="collapse_2">
-          <ul>
-            <li><a href="{{route('customers.clients.index')}}">Top Categories</a></li>
-            <li><a href="{{route('customers.clients.index')}}">Best Rated</a></li>
-            <li><a href="{{route('customers.clients.index')}}">Best Price</a></li>
-            <li><a href="{{route('customers.clients.index')}}">Latest Submissions</a></li>
           </ul>
         </div>
       </div>

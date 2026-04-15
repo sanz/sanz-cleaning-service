@@ -85,7 +85,7 @@
                                                       href="{{ route('auth.customers.password.request') }}">Forgot
                                                       Password?</a></div>
                                     </div>
-                                    <button type="submit" class="btn_1 full-width">Login to Sanz</button>
+                                    <button type="submit" class="btn_1 full-width">Login</button>
                                     <div class="text-center add_top_10">New to Sanz? <strong><a
                                                       href="{{route('auth.customers.register')}}">Sign up!</a></strong></div>
                               </form>

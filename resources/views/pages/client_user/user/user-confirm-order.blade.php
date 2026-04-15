@@ -39,16 +39,16 @@
                                 <section id="switch_inner2">
                                   @csrf
                                     <div class="mb-3">
-                                        <h6>Work Location details</h6>
+                                        <h6>Your Home Location:</h6>
                                         <div class="row">
                                             <div class="form-group col-6">
                                                 <select class="form-control" name="state" id="cnfod_state">
-                                                  <option value="{{$service->state}}" selected>{{$service->state}}</option>
+                                                  <option value="{{Auth::guard('customer')->user()->user_state}}" selected>{{Auth::guard('customer')->user()->user_state}}</option>
                                                 </select>
                                             </div>
                                             <div class="form-group col-6">
                                                 <select name="city" id="cnfod_city" class="form-control">
-                                                    <option value="{{$service->city}}" selected>{{$service->city}}</option>
+                                                    <option value="{{Auth::guard('customer')->user()->user_city}}" selected>{{Auth::guard('customer')->user()->user_city}}</option>
                                                 </select>
                                             </div>
                                             <div class="form-group col-12">

@@ -41,7 +41,7 @@
             <div class="row">
               <div class="col-md-8">
                 <div class="form-group mt-20 mb-0">
-                    <span class="small pl-0 mr-2">User Id:</span><span class="font-weight-bold">{{Auth::guard('customer')->user()->user_code}}</span>
+                    <span class="small pl-0 mr-2">User:</span><span class="font-weight-bold">{{Auth::guard('customer')->user()->user_name}}</span>
                 </div>
               </div>
             </div>

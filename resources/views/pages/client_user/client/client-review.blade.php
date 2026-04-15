@@ -117,14 +117,14 @@
                   @endphp
                   <strong>{{$revSum}}</strong>
                   <em>@if ($revSum>=4)
-                    superb
+                    Superb
                     @elseif ($revSum>=3)
                     Very Good
                     @elseif ($revSum>=2)
                     Good
                     @elseif ($revSum>=1)
                     Pleasant
-                    @elseif ($revSum<1) Noob @endif</em>
+                    @elseif ($revSum<1) Decent @endif</em>
                 </div>
               </div>
             </div>

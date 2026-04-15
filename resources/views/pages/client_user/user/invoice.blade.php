@@ -19,13 +19,11 @@
 <main class="bg_gray pattern">
     <div class="container margin_60_40">
         <div class="col justify-content-center">
-            <section class="invoice-print mb-1">
+            <section class="invoice-print mb-2">
                 <div class="row">
                     <div class="col-12">
                         <div id="editor"></div>
-                        <button id="download" class="btn btn-outline-secondary float-right ml-1 ml-md-1"> <i class="fa fa-download mr-1"></i>Download</button>
                         <button class="btn_1 btn-print float-right mb-1 mb-md-0 ml-1"> <i class="fa fa-print mr-1"></i>Print</button>
-
                     </div>
                 </div>
             </section>
@@ -36,7 +34,7 @@
                     <div id="invoice-company-details" class="row">
                         <div class="col-md-6 col-sm-12 text-left pt-1">
                             <div class="media pt-1">
-                                <img src="{{asset('client_user/img/digyatafencylogo.png')}}" width="150" />
+                                <img src="{{asset('client_user/img/logo.png')}}" width="150" />
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 text-right">

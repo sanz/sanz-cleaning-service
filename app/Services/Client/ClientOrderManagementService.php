@@ -106,11 +106,11 @@ class ClientOrderManagementService
         $data = $rows->first();
 
         return [
-            'provider_name' => $data->name,
+            'provider_name' => $data->provider_name,
             'service_status' => $data->service_status,
             'order_id' => $data->order_code,
-            'service_name' => 'Service Name',
-            'service_cat' => 'Service Cat.',
+            'service_name' => $data->service_name,
+            'service_cat' => $data->service_category,
             'booking_date' => $data->booking_date,
             'booking_time' => $data->time_slot,
             'city' => $data->city . ' - ' . $data->state,
