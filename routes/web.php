@@ -2,10 +2,8 @@
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
-use App\Http\Controllers\Client\AboutUsController;
-use App\Http\Controllers\Client\CaptchaController;
-use App\Http\Controllers\Client\ContactsController;
-use App\Http\Controllers\Client\IndexController;
+use App\Http\Controllers\EmailTemplatePreviewController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\ResetPassword\Client\ForgotPasswordController as ClientForgotPasswordController;
 use App\Http\Controllers\ResetPassword\Client\ResetPasswordController as ClientResetPasswordController;
@@ -15,12 +13,12 @@ use Illuminate\Support\Facades\Route;
 
 /* FRONT_END */
 
-Route::get('/', [IndexController::class, 'index']);
-Route::get('home', [IndexController::class, 'index'])->name('home');
-Route::get('about-us', [AboutUsController::class, 'index'])->name('pages.about');
-Route::get('contacts', [ContactsController::class, 'index'])->name('pages.contact');
-Route::post('contacts', [ContactsController::class, 'store'])->name('pages.contact.store');
-Route::get('captcha/reload', [CaptchaController::class, 'reloadCaptcha'])->name('captcha.reload');
+Route::get('/', [HomeController::class, 'index']);
+Route::get('home', [HomeController::class, 'index'])->name('home');
+Route::get('about-us', [HomeController::class, 'aboutUs'])->name('pages.about');
+Route::get('contacts', [HomeController::class, 'contacts'])->name('pages.contact');
+Route::post('contacts', [HomeController::class, 'storeContact'])->name('pages.contact.store');
+Route::get('captcha/reload', [HomeController::class, 'reloadCaptcha'])->name('captcha.reload');
 
 /* LOGIN */
 
@@ -54,3 +52,9 @@ Route::prefix('auth/customers')->name('auth.customers.')->group(function () {
 
 /** locale */
 Route::get('lang/{locale}', [LanguageController::class, 'swap'])->name('locale.swap');
+
+/* EMAIL PREVIEWS */
+Route::prefix('preview/emails')->name('preview.emails.')->group(function () {
+	Route::get('/', [EmailTemplatePreviewController::class, 'index'])->name('index');
+	Route::get('{template}', [EmailTemplatePreviewController::class, 'show'])->name('show');
+});

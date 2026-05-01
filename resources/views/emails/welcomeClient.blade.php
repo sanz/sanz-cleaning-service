@@ -170,7 +170,7 @@
 			<table border="0" cellpadding="0" cellspacing="0" class="responsive-table" style="max-width: 500px;" width="100%">
 
 					<tr>
-						<td align="center" class="logo" valign="top"><a href="{{route('home')}}" name="sanz" target="_blank" ><img alt="sanz" border="0"  height="45"   src='{{asset('client_user/img/sanzfencylogo.png')}}' style="display: block; font-family: 'proxima_nova_bold', Proxima Nova, Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;" title="sanz" width="150"  /> </a></td>
+						<td align="center" class="logo" valign="top"><a href="{{route('home')}}" name="sanz" target="_blank" ><img alt="sanz" border="0"  height="45"   src="{{asset('client_user/img/logo.png')}}" style="display: block; font-family: 'proxima_nova_bold', Proxima Nova, Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;" title="sanz" width="150"  /> </a></td>
 					</tr>
 
 			</table>
@@ -240,7 +240,7 @@
 						<table style="margin:0;padding:0;font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif;border-spacing:0;line-height:150%;width:100%">
 
 								<tr class="padding" style="margin:0;padding:0;font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif"><!--- ICON --->
-									<td class="padding-right" style="margin:0;font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif;padding:0;vertical-align:top;text-align:center;width:60px;padding-top:5px;padding-left:20px;padding-right:40px" valign="top"><img border="0"  height="150"   src='{{asset('client_user/img/email/ico-download-app3.png')}}' style="margin:0; padding:0; max-height:90px; max-width:90px;margin:0;" width="150"  /></td>
+									<td class="padding-right" style="margin:0;font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif;padding:0;vertical-align:top;text-align:center;width:60px;padding-top:5px;padding-left:20px;padding-right:40px" valign="top"><img border="0"  height="150"   src="{{ asset('client_user/img/email/ico-download-app3.png') }}" style="margin:0; padding:0; max-height:90px; max-width:90px;margin:0;" width="150"  /></td>
 									<!--- /ICON ---><!--- CONTENT --->
 									<td class="padding-right" style="margin:0;font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif;padding:0;vertical-align:top">
 									<div class="h2" style="margin:0; padding:0; color: #333333; font-family: 'proxima_nova_reg', Proxima Nova, Helvetica, Arial, sans-serif; font-weight: normal; text-rendering:optimizelegibility; font-size:24px; line-height:28px; padding-bottom:10px">Step 1: Login to your Client Account</div>
